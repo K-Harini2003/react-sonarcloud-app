@@ -30,8 +30,8 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@v2
         with:
           args: >
-            -Dsonar.projectKey=your_project_key
-            -Dsonar.organization=your_org_key
+            -Dsonar.projectKey=K-Harini2003_react-sonarcloud-app
+            -Dsonar.organization=K-Harini2003
             -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
